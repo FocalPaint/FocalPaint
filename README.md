@@ -1,2 +1,6 @@
 # FocalPaint
-FocalPaint Issue Tracker and Shared Code Repository
+
+Please use our issue tracker to submit problems and questions:
+
+https://github.com/FocalPaint/FocalPaint/issues/new
+
