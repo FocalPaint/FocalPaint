@@ -1,8 +1,10 @@
 # FocalPaint
 
-Please use our issue tracker to submit problems and questions:
+Natural Painting App for iPad
 
-https://github.com/FocalPaint/FocalPaint/issues/new
+Main website: https://www.focalpaint.com
+
+Public Beta Link: https://testflight.apple.com/join/1adnuUHv
 
 # Custom Shaders
 
@@ -14,6 +16,6 @@ After you've edited and saved a brush, it will appear in the `FocalPaint` folder
 
 ![image](https://user-images.githubusercontent.com/6015639/164383564-b19815f4-0d28-483d-9cb4-48ecede2034d.png)
 
-To install a brush just copy the folder (and uncompress if necessary) into the Brushes folder and they will immediately appear inside of FocalPaint.  If you don't have a FocalPaint or Brushes folder, you may need to go into FocalPaint and edit an existing brush and save it. This will create the folders you need. (This will also be corrected in a future release).
+To install a brush just copy the folder (and uncompress if necessary) into the `FocalPaint/Brushes` folder and they will immediately appear inside of FocalPaint.  If you don't have a `FocalPaint` and/or `Brushes` folder, you may need to launch FocalPaint and edit an existing brush and save it. This will create the folders you need. (This will also be corrected in a future release).
 
-Please only accept brushes from people you trust, as brushes can include GPU Shader Code and it is very unlikely, but unknown whether this can be a security issue, or possibly crash your device.
+Please only accept brushes from people you trust, as brushes can include GPU Shader Code and although very unlikely, it is unknown whether this can be a security issue, or possibly crash your device.
