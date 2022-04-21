@@ -54,9 +54,10 @@ kernel void customBrushShader(
 ```
 
 
-You'll notice the first argument is an Array of Dabs, and the second argument is a single DabMeta object. Assuming you want to draw dabs, you may want to loop over the DabArray using the DabMeta.dabCount property.  Here are their definitions, these are included for you so you should not copy these into your shader code:
+You'll notice the first argument is an Array of `Dab`s, and the second argument is a single `DabMeta` object. Assuming you want to draw dabs, you may want to loop over the DabArray using the `DabMeta.dabCount` property.  Here are their definitions, these are included for you so you should not copy these into your shader code:
 
 ```
+// a circle-like blob color or effect (eraser, etc) to apply to a canvas
 struct Dab {
     // color "reflectance" of pigment
     // 12 channels, log2 encoded
@@ -179,7 +180,7 @@ struct DabMeta {
 };
 ```
 
-You may notice that a Dab does not have all the same settings that are available in the brush editor. That is because I hadn't thought of any uses for those setting in the shader yet, so I didn't add them. A lot of them wouldn't really make sense, either. Settings like (regular) Jitter affect the coordinates of where the Dabs are placed.  The shader texture size itself is determined by the extents of the Dabs in the Dab Array, so it doesn't make much sense to try to use Jitter in the shader, since you likely can't move the dab much without moving it outside the texture boundary.  That said, it might still be interesting to have all the settings (and inputs as well) available in the shader  The only input right now is Presure.
+You may notice that a `Dab` does not have all the same settings that are available in the brush editor. That is because I hadn't thought of any uses for those setting in the shader yet, so I didn't add them. A lot of them wouldn't really make sense, either. Settings like (regular) Jitter affect the coordinates of where the Dabs are placed.  The shader texture size itself is determined by the extents of the Dabs in the Dab Array, so it doesn't make much sense to try to use Jitter in the shader, since you likely can't move the dab much without moving it outside the texture boundary.  That said, it might still be interesting to have all the settings (and inputs as well) available in the shader  The only input right now is Presure.
 
 # Default Brush Shader
 
