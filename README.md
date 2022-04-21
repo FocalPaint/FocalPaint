@@ -6,4 +6,5 @@ https://github.com/FocalPaint/FocalPaint/issues/new
 
 # Custom Shaders
 
-https://github.com/FocalPaint/FocalPaint/blob/CustomShader/CustomShaders/Readme.md
+[Read how to make your own Brush Shader](CustomShaders/Readme.md)
+
