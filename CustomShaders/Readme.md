@@ -1,10 +1,12 @@
 # Custom Brush Shaders
 
-https://www.youtube.com/watch?v=kiZCT-uVaaA
+Download the Beta: https://testflight.apple.com/join/1adnuUHv
 
 Yes, that's right. Now you can create your own custom Compute Functions in Metal Shading Language:
 
 https://developer.apple.com/metal/Metal-Shading-Language-Specification.pdf
+
+Quick video demo: https://www.youtube.com/watch?v=kiZCT-uVaaA
 
 Everything in the Standard Library should be available. If something doesn't work, please file an issue.
 Typos and compiler errors should appear in a (rather small) pop up.
