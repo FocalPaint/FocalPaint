@@ -159,7 +159,7 @@ struct Dab {
 // in the dabarray
 struct DabMeta {
     // how many dabs to draw in this draw call
-    // should loop over dabArray
+    // should loop over dabArray, or not; do whatever you want
     uint32_t dabCount;
     
     // global origin coordinates of texture
