@@ -163,6 +163,11 @@ struct DabMeta {
     uint32_t dabCount;
     
     // global origin coordinates of texture
+    // the texture we have in the shader is likely much smaller
+    // than the whole canvas, so this is the origin of that texture
+    // in the context of the whole canvas.  (10,200) would mean the start of
+    // this texture (upper left corner) is 10 pixels right and 200 pixels down 
+    // from the upper-left corner of the whole canvas
     vector_float2 texOrigin;
     
     // whether we are only updating the smudge
