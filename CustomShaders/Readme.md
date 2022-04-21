@@ -8,7 +8,7 @@ https://developer.apple.com/metal/Metal-Shading-Language-Specification.pdf
 
 Quick video demo: https://www.youtube.com/watch?v=kiZCT-uVaaA
 
-Everything in the Standard Library should be available. If something doesn't work, please file an issue.
+Everything in the Metal Standard Library should be available. If something doesn't work, please file an issue.
 Typos and compiler errors should appear in a (rather small) pop up.
 
 To create a custom shader, just open the brush editor (tap a brush in the brush menu) and click the `</>` button:
