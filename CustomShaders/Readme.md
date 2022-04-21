@@ -54,7 +54,7 @@ kernel void customBrushShader(
 ```
 
 
-You'll notice the first argument is an Array of `Dab`s, and the second argument is a single `DabMeta` object. Assuming you want to draw dabs, you may want to loop over the DabArray using the `DabMeta.dabCount` property.  Here are their definitions, these are included for you so you should not copy these into your shader code:
+You'll notice the first argument is an Array of `Dab`s, and the second argument is a single `DabMeta` object. Assuming you want to draw dabs, you may want to loop over the DabArray using the `DabMeta.dabCount` property.  Here are their definitions, these are included for you so you should NOT copy these into your shader code:
 
 ```
 // a circle-like blob color or effect (eraser, etc) to apply to a canvas
