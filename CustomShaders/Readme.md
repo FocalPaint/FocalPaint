@@ -180,7 +180,7 @@ struct DabMeta {
 };
 ```
 
-You may notice that a `Dab` does not have all the same settings that are available in the brush editor. That is because I hadn't thought of any uses for those setting in the shader yet, so I didn't add them. A lot of them wouldn't really make sense, either. Settings like (regular) Jitter affect the coordinates of where the Dabs are placed.  The shader texture size itself is determined by the extents of the Dabs in the Dab Array, so it doesn't make much sense to try to use Jitter in the shader, since you likely can't move the dab much without moving it outside the texture boundary.  That said, it might still be interesting to have all the settings (and inputs as well) available in the shader  The only input right now is Presure.
+You may notice that a `Dab` does not have all the same settings that are available in the brush editor. That is because I hadn't thought of any uses for those setting in the shader yet, so I didn't add them. A lot of them wouldn't really make sense, either. Settings like (regular) Jitter affect the coordinates of where the Dabs are placed.  The shader texture size itself is determined by the extents of the Dabs in the Dab Array, so it doesn't make much sense to try to use Jitter in the shader, since you likely can't move the dab much without moving it outside the texture boundary.  That said, it might still be interesting to have all the settings (and inputs as well) available in the shader  The only input right now is Pressure.
 
 # Default Brush Shader
 
