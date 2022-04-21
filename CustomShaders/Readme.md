@@ -146,7 +146,7 @@ struct Dab {
     // odds of drawing a pixel at all
     float dabCoverage;
     
-    // how stong to pick up color from layer below active layer
+    // how strong to pick up color from layer below active layer
     // only when smudging
     float solvent;
 };
