@@ -23,7 +23,7 @@ You'll see black text box appear where you can type.  Click the `</>`  again to 
 You can use the onscreen keyboard to type out a function, or hopefully you can use [Universal Control](https://support.apple.com/en-us/HT212757) on a nearby Mac to make things easier.
 
 Here's a really simple example that just fills the buffers (defined by the dab sizes you draw) with a solid color. Your custom shader must be named `customBrushShader` and must
-have the same arguments as this example, but you can also include other functions, structs, etc.  Continue reading about the Dab and DabMeta Types, which you'll need to understand
+have the same arguments as this example, but you can also include other functions, structs, etc.  Continue reading about the Dab and DabMeta Types, which you'll need to understand at least a tiny bit about.
 
 # Simple Example
 
