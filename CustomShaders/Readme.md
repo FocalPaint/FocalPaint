@@ -11,6 +11,15 @@ Quick video demo: https://www.youtube.com/watch?v=kiZCT-uVaaA
 Everything in the Metal Standard Library should be available. If something doesn't work, please file an issue.
 Typos and compiler errors should appear in a (rather small) pop up.
 
+To make things easier, you can download the FocalPaintMetal project and edit your shader in Xcode:
+
+https://github.com/FocalPaint/FocalPaint/tree/main/FocalPaintMetal/FocalPaintMetal
+
+There's a custom shader already defined here: 
+https://github.com/FocalPaint/FocalPaint/blob/main/FocalPaintMetal/FocalPaintMetal/FocalPaintMetal/FocalPaintMetal.metal
+
+so you can just edit it and copy and paste into FocalPaint by following these instructions:
+
 To create a custom shader, just open the brush editor (tap a brush in the brush menu) and click the `</>` button:
 
 ![image](https://user-images.githubusercontent.com/6015639/164361195-9d5daac8-370a-456e-a50c-08d3e0b16883.png)
