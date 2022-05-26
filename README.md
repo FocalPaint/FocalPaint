@@ -8,7 +8,7 @@ Public Beta Link: https://testflight.apple.com/join/1adnuUHv
 
 # Custom Shaders
 
-[Read how to make your own Brush Shader](CustomShaders/Readme.md)
+[Read how to make your own Brush Shader](https://github.com/FocalPaint/Metal)
 
 # Sharing Brushes
 
